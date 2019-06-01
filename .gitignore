@@ -1,5 +1,5 @@
 /.secrets
-
+secrets.tar
 # Created by https://www.gitignore.io/api/vim,linux,macos,python,windows,pycharm+all,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=vim,linux,macos,python,windows,pycharm+all,jupyternotebook
 
