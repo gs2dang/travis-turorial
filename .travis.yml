@@ -18,6 +18,6 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_19fabbf9472d_key -iv $encrypted_19fabbf9472d_iv
   -in secrets.tar.enc -out secrets.tar -d
 - tar xvf secrets.tar
-- docker build -t gs2dang/community .
+- docker build -t "$DOCKER_USERNAME"/community .
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- docker push gs2dang/community:latest
+- docker push "$DOCKER_USERNAME"/community:latest
