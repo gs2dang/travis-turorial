@@ -23,4 +23,4 @@ before_install:
 - chmod +x bin/docker_push.sh
 
 after_success:
-  - bin/docker_push.sh
+  - bash bin/docker_push.sh
